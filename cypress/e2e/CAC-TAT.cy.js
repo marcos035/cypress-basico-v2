@@ -172,10 +172,6 @@ describe('Central de atendimento ao cliente TAT', () => {
     cy.contains('Talking About Testing').should('be.visible')
     
   })
-  it('verifica que a política de privacidade abre em outra aba sem a necessidade de um clique', ()=>{
-    
-
-
-  })
+  
 
 })
