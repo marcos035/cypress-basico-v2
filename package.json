@@ -5,7 +5,9 @@
   "main": "src/index.html",
   "scripts": {
     "cy:open": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "cy:mobile": "cypress open --config viewportWidth=370 viewportHeight=660",
+    "cy:mobileLine": "cypress run --config viewportWidth=370 viewportHeight=660"
   },
   
   "repository": {
